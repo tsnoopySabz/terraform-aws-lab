@@ -1,1 +1,9 @@
 credenctial.txt
+.terraform
+*.tfstate
+*.tfstate.backup
+crash.log
+crash.*.log
+terraform.tfvars
+*.tfvars
+*.tfplan
