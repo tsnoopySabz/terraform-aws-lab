@@ -3,3 +3,9 @@ variable "aws_region" {
     type = string
     default = "us-east-2"
 }
+
+variable "server_port" {
+    description = "TCP port for the web server"
+    type = number
+    default = 8080
+}
