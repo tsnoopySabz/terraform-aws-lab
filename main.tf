@@ -24,7 +24,6 @@ data "aws_ami" "ubuntu" {
   }
 }
 
-<<<<<<< HEAD
 resource "aws_instance" "example" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
@@ -33,5 +32,3 @@ resource "aws_instance" "example" {
   }
 }
 
-=======
->>>>>>> d2a49fe1f46a83dec60035d8102a060b7e9c3612
